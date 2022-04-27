@@ -350,23 +350,7 @@ void keyPressed() {
 
   // DO NOT REMOVE OR EDIT THE FOLLOWING SWITCH/CASES
   switch(key) {
-  case 'w':
-    debugMode = true;
-    cameraOffsetY += 25;
-    break;
 
-  case 's':
-    debugMode = true;
-    cameraOffsetY -= 25;
-    break;
-
-  case 'a':
-    if (playerHealth > 0) playerHealth --;
-    break;
-
-  case 'd':
-    if (playerHealth < 5) playerHealth ++;
-    break;
   }
 
 }
